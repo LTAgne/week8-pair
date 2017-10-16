@@ -1,6 +1,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
-<c:import url="/WEB-INF/jsp/common/header.jsp" />
+<%@include file="common/header.jsp" %>
+
 <section id="planets">
 
     <section id="inner-planets" class="planets">

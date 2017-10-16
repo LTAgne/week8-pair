@@ -188,6 +188,7 @@ section.centeredPanel {
     background-color: #FFF;
     border-radius: 7px;
     margin: 20px auto;
+    padding: 15px;
 }
 
     section.centeredPanel h2 {
@@ -214,4 +215,19 @@ section.centeredPanel {
     font-size: 16px;
     padding: 10px;
     margin-bottom: 10px;
+}
+
+.button {
+	color: black;
+}
+
+.container {
+	display: flex;
+}
+.planetDownsize img {
+	flex: 1;
+}
+
+.planetInfo {
+	flex: 3;
 }

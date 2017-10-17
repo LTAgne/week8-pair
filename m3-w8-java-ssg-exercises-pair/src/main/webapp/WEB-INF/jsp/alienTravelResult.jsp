@@ -13,7 +13,7 @@
 	
 	<div class="planetInfo">
 	<h2>Traveling by <c:out value="${calculator.modeOfTransportation}"/> you will reach <c:out value="${calculator.planet}"/>
-	 in <c:out value="${calculator.planetMode}"/>. You will be <c:out value="${calculator.planet}"/> years old. </h2>
+	 in <c:out value="${calculator.planetMode}"/>. You will be <c:out value="${calculator.alienAge}"/> years old. </h2>
 	</div>
 	</div>
 	

@@ -34,11 +34,11 @@ public class AlienTravelCalculator {
 	
 	}
 	public double getPlanetMode(){
-		return planetDistance.get(planet)/ planetMode.get(modeOfTransportation);
+		return planetDistance.get(planet) / planetMode.get(modeOfTransportation);
 	}
 	
 	public double getAlienAge(){
-		return (planetDistance.get(planet)/ planetMode.get(modeOfTransportation)) + age; 
+		return (planetDistance.get(planet) / planetMode.get(modeOfTransportation)) + age; 
 	}
 	
 	public int getAge() {

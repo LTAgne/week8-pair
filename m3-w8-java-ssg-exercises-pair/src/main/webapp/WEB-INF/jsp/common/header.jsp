@@ -30,6 +30,9 @@
             <li><a href="${alienWeightInput}">Alien Weight</a></li>
            
         	 <c:url var="alienTravelInput" value="/alienTravelInput"/>
-            <li><a href="${alienTravelInput}">Alien Travel Time</a></li>               
+            <li><a href="${alienTravelInput}">Alien Travel Time</a></li>     
+            
+            <c:url var="spaceForumInput" value="/spaceForumInput"/>
+            <li><a href="${spaceForumInput}">Space Forum</a></li>                     
         </ul>
     </nav>

@@ -32,7 +32,10 @@
         	 <c:url var="alienTravelInput" value="/alienTravelInput"/>
             <li><a href="${alienTravelInput}">Alien Travel Time</a></li>     
             
-            <c:url var="spaceForumInput" value="/spaceForumInput"/>
-            <li><a href="${spaceForumInput}">Space Forum</a></li>                     
+            <c:url var="forumPosts" value="/forumPosts"/>
+            <li><a href="${forumPosts}">Space Forum</a></li>     
+            
+            <c:url var="spaceStore" value="/shoppingCart/index"/>
+            <li><a href="${spaceStore}">Space Store</a></li>                     
         </ul>
     </nav>

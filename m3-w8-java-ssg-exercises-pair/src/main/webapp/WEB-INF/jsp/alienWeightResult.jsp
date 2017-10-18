@@ -12,7 +12,7 @@
 	</div>
 	<div class="planetInfo">
 	<h2>If you are <c:out value="${calculator.weight}"/> lbs. on planet Earth, 
-	 you would weigh <c:out value="${calculator.alienWeight}"/> lbs. on <c:out value="${calculator.planet}"/>. </h2>
+	 you would weigh <c:out value="${calculator.planetWeight}"/> lbs. on <c:out value="${calculator.planet}"/>. </h2>
 	</div>
 	</div>
 </section>

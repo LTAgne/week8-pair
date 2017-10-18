@@ -231,3 +231,12 @@ section.centeredPanel {
 .planetInfo {
 	flex: 3;
 }
+
+.storeInventory img {
+	width: 80%;
+}
+
+.storeInventory td{
+	color: black;
+}
+

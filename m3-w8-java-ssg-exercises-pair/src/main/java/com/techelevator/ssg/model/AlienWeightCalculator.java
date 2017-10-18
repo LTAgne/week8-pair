@@ -22,7 +22,7 @@ public class AlienWeightCalculator {
 		planetWeight.put("Neptune",1.19);
 	}
 	
-	public double getAlienWeight(){
+	public double getPlanetWeight(){
 		return weight * planetWeight.get(planet);
 	}
 
@@ -40,5 +40,13 @@ public class AlienWeightCalculator {
 
 	public void setPlanet(String planet) {
 		this.planet = planet;
+	}
+
+//	public Map<String, Double> getPlanetWeight() {
+//		return planetWeight;
+//	}
+
+	public void setPlanetWeight(Map<String, Double> planetWeight) {
+		this.planetWeight = planetWeight;
 	}
 }

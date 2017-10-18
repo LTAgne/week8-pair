@@ -17,8 +17,8 @@ public class AlienTravelController {
 	}
 	
 	@RequestMapping ("/alienTravelResult")
-	public String travelResult( @RequestParam String planet, @RequestParam int age, ModelMap modelHolder, String modeOfTransportation) {
-		AlienTravelCalculator calc = new AlienTravelCalculator (age,planet, modeOfTransportation);
+	public String travelResult( @RequestParam String planet, @RequestParam int age, ModelMap modelHolder, @RequestParam String transport) {
+		AlienTravelCalculator calc = new AlienTravelCalculator (age,planet, transport);
 		modelHolder.put("calculator", calc);
 			
 			return "alienTravelResult";
